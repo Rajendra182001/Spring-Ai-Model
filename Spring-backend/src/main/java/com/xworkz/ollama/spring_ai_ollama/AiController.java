@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/")
 @CrossOrigin(origins = {"http://localhost:5173",
-                 "https://spring-ai-model.vercel.app/"})   // IMPORTANT
+                 "https://spring-ai-model.vercel.app"})   // IMPORTANT
 public class AiController {
     private final ChatClient chatClient;
 
